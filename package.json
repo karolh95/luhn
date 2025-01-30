@@ -9,6 +9,8 @@
   "author": "Karol Haniszewski <karolh95@live.com>",
   "license": "MIT",
   "scripts": {
+    "prebuild": "rimraf lib",
+    "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "eslint \"src/**/*.ts\" --fix",
     "test": "jest"
