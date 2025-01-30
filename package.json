@@ -1,7 +1,11 @@
 {
   "name": "luhn",
   "version": "1.0.0",
-  "main": "lib/luhn.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
   "author": "Karol Haniszewski <karolh95@live.com>",
   "license": "MIT",
   "scripts": {
